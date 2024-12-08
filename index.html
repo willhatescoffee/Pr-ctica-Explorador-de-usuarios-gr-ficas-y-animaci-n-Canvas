@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 EN 1 GG</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Lado izquierdo: API -->
+      <div class="api-data">
+        <button id="fetchDataBtn">Obtener datos aleatorios</button>
+        <div id="userInfo">
+          <img id="userImage" src="" alt="User Image" />
+          <p id="userName">Nombre:</p>
+          <p id="userEmail">Correo:</p>
+        </div>
+      </div>
+
+      <!-- Lado derecho: Gráfico dinámico -->
+      <div class="dynamic-chart">
+        <div class="chart-background">
+          <div class="bar red"></div>
+          <div class="bar yellow"></div>
+          <div class="bar green"></div>
+          <div class="bar blue"></div>
+        </div>
+      </div>
+
+      <!-- Abajo: Animación -->
+      <div class="animation-container">
+        <canvas id="animationCanvas" width="400" height="200"></canvas>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
